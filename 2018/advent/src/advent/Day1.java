@@ -16,9 +16,7 @@ public class Day1 {
         } catch (Exception ignored) {
 
         }
- //       System.out.println(sb.toString());
-        String[] foo = sb.toString().split("\n");
-      //  foo[0] = foo[0].substring(1, foo[0].length() -1);
+        String[] foo = sb.toString().split(System.lineSeparator());
         int[] data = new int[foo.length];
         for (int i = 0; i < foo.length; i++) {
             data[i] = Integer.parseInt(foo[i].trim());
