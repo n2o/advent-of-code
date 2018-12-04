@@ -39,7 +39,7 @@
 
 (defn- empty-intersection? [[to-be-checked & other-vecs]]
   (let [matching-vec (set (:coords to-be-checked))
-        other-vecs (set (apply concat (apply map :coords other-vecs)))]
+        other-vecs (set (mapcat :coords other-vecs))]
     (empty? (cset/intersection matching-vec other-vecs))))
 
 (defn- build-combinations [col]
