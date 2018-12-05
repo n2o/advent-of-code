@@ -9,10 +9,10 @@
   (is (= 5 (day5/first-part "aabAAB")))
   (is (= (count "dabCBAcaDA") (day5/first-part "dabAcCaCBAcCcaDA"))))
 
-(comment
-  (deftest part-one
-    (is (= 10584 (day5/first-part day5/input))))
+(deftest part-one
+  (is (= 10584 (day5/first-part day5/input))))
 
+(comment
   (deftest part-two
     (is (= 6968 (day5/second-part day5/input))))
   )
