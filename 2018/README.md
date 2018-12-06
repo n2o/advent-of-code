@@ -10,3 +10,5 @@ are their repositories:
 * [@Grimaldus12](https://github.com/Grimaldus12/AdventOfCode_Java_2018)
 
 * [@chingucoding](https://github.com/chingucoding/AdventOfCode)
+
+* [@failip](https://github.com/failip/advent-of-code-2018)
