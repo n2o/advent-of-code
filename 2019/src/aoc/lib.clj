@@ -2,7 +2,7 @@
   (:require [clojure.java.io :as io]
             [clojure.string :as string]))
 
-(defn read-aoc-file [file]
+(defn read-multiline-file [file]
   (->> file
        io/resource
        slurp
